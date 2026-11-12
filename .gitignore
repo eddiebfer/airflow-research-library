@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Airflow runtime files
+airflow/logs/
+airflow/airflow.cfg
+airflow/simple_auth_manager_passwords.json
+airflow/standalone_admin_password.txt
+airflow/webserver_config.py
+
+# Local databases
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Research papers and generated files
+*.pdf
+
+# Airflow database and generated credentials
+airflow/airflow.db*
+airflow/simple_auth_manager_passwords.json*
